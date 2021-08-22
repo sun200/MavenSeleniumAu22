@@ -64,5 +64,12 @@ public class seleniumDemo2Test {
 		assertEquals(alertText,output);
 		
 	}
+	
+	@Test
+	public  void test2() {
+		
+		assert(true);
+		
+	}
 
 }
