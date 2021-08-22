@@ -68,7 +68,7 @@ public class seleniumDemo2Test {
 	@Test
 	public  void test2() {
 		
-		assert(true);
+		assert(false);
 		
 	}
 
