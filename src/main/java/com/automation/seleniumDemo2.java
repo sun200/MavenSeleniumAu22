@@ -22,16 +22,13 @@ public class seleniumDemo2 {
 		login.setTextUserId("abc");
 		login.setTextPassword("password");
 		login.clickButtonLogin();
+		Alert alert = driver.switchTo().alert();
+		
+		System.out.println(alert.getText());
 		
 		
 
-		
-		
-		
-        
-		
-		
-
+	
 	}
 
 }
